@@ -6,3 +6,7 @@ body{
 body{
     background-color:burlywood;
 }
+header.primary{
+    background-color: azure;
+    color: #fff;
+}
