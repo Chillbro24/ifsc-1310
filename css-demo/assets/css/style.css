@@ -1,4 +1,4 @@
-* ---- CSS Demo ---- */
+/* ---- CSS Demo ---- */
 
 /*  ---------------Box Sizing-----------------  */
 
@@ -105,13 +105,22 @@ line-height:1.5;
 }
 
 #content h3{
-  border-left: 7.5px solid #47c12f;
+  border-left: 7.5px solid #3b638b;
   padding:7.5px;
 }
 
 #blog{
   display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  gap:2rem;
 }
+
+#blog .post{
+  box-shadow: 0 8px 16px rgba(0,0,0,.6);
+}
+
+
 
 
 
