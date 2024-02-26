@@ -1,6 +1,6 @@
 /* ---- CSS Demo ---- */
 
-/*  ---------------Box Sizing-----------------  */
+/*---------------Box Sizing-----------------*/
 
 html {
   box-sizing: border-box;
@@ -14,7 +14,7 @@ html {
 /*  --------------- Responsive Images -----------------  */
 
 img{
-  max-width:100%;
+  max: width 100%;
 }
 
 /*  --------------- Utility Classes -----------------  */
@@ -33,7 +33,7 @@ body {
 }
 
 header.primary {
-  background-color: #3b638b;
+  background-color: #73d53a;
   color: #ffffff;
   text-align: center;
   text-shadow: 2px 2px #000000;
@@ -105,7 +105,7 @@ line-height:1.5;
 }
 
 #content h3{
-  border-left: 7.5px solid #3b638b;
+  border-left: 7.5px solid #21c181;
   padding:7.5px;
 }
 
@@ -146,7 +146,7 @@ line-height:1.5;
 }
 
 #blog a{
-  color:#3b638b;
+  color:#86ed76;
 }
 
 #blog .post:hover{
