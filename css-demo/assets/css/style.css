@@ -117,10 +117,11 @@ line-height:1.5;
 }
 
 #blog .post{
-  box-shadow: 0 8px 16px rgba(0,0,0,.6);
+  box-shadow: 0 4px 8px rgba(0,0,0,.6);
   padding: 10px;
   border-radius:4px;
   font-size:.8rem;
+  transition:.5s;
 }
 
 #blog figure{
@@ -137,12 +138,22 @@ line-height:1.5;
 #blog header{
   padding-top:10px;
   font-size:.6rem;
+  color:#c0c0c0;
 }
 
 #blog header h2{
   margin:0;
-  color:#c0c0c0;
 }
+
+#blog a{
+  color:#3b638b;
+}
+
+#blog .post:hover{
+  box-shadow: 0 8px 16px rgba(0,0,0,.6);
+}
+
+
 
 
 
