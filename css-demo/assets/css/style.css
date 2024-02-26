@@ -118,39 +118,43 @@ line-height:1.5;
 
 #blog .post{
   box-shadow: 0 8px 16px rgba(0,0,0,.6);
+  padding: 10px;
+  border-radius:4px;
+  font-size:.8rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 600px) {
-  header.primary ul {
-    flex-direction: column;
-    gap:10px;
-    max-width:250px;
-    margin:auto;
-  }
-  header.primary nav a{
-    display:block;
-  }
+#blog figure{
+  margin:0;
 }
+
+#blog figcaption{
+  text-transform:uppercase;
+  font-size:.6rem;
+  text-align:center;
+  color:#c0c0c0;
+}
+
+#b
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
