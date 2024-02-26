@@ -1,4 +1,4 @@
-/* ---- CSS Demo ---- */
+* ---- CSS Demo ---- */
 
 /*  ---------------Box Sizing-----------------  */
 
@@ -11,8 +11,19 @@ html {
   box-sizing: inherit;
 }
 
+/*  --------------- Responsive Images -----------------  */
+
+img{
+  max-width:100%;
+}
+
 /*  --------------- Utility Classes -----------------  */
 
+.container{
+  max-width: 960px;
+  width:80vw;
+  margin:40px auto;
+}
 
 /*  --------------- Global Styles -----------------  */
 
@@ -84,7 +95,23 @@ header.primary nav a:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
+#content{
+line-height:1.5;
+}
 
+#content h2{
+ color: #3b638b;
+ border-bottom:1px dotted #c0c0c0;
+}
+
+#content h3{
+  border-left: 7.5px solid #47c12f;
+  padding:7.5px;
+}
+
+#blog{
+  display:flex;
+}
 
 
 
